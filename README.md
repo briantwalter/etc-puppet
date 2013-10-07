@@ -1,1 +1,1 @@
-My (personal) Puppet conf files, mainifests, and unit tests.
+My personal Puppet conf files, mainifests, and unit tests.
