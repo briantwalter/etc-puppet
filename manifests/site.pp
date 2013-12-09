@@ -16,4 +16,5 @@ node default {
 	include services
 	include packages
 	include dotfiles
+	include autoupdates
 }
