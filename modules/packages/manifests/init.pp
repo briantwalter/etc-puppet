@@ -15,4 +15,8 @@ class packages {
 		provider => 'apt',
 		ensure => 'latest',
 	}
+	package { 'unattended-upgrades':
+		provider => 'apt',
+		ensure => 'latest',
+	}
 }
