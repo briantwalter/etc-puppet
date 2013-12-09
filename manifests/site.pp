@@ -15,4 +15,5 @@ node default {
 	include users
 	include services
 	include packages
+	include dotfiles
 }
