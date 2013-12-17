@@ -6,6 +6,13 @@ class autoupdates {
 		group => 'root',
 		source => 'puppet:///modules/autoupdates/02periodic',
 	}
+	file { '/etc/apt/apt.conf.d/20auto-upgrades':
+		ensure => directory,
+		mode => '0644',
+		owner => 'root',
+		group => 'root',
+		source => 'puppet:///modules/autoupdates/20auto-upgrades',
+	}
 	file { '/etc/apt/apt.conf.d/50unattended-upgrades':
 		ensure => directory,
 		mode => '0644',

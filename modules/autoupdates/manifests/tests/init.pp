@@ -1,1 +1,1 @@
-class { 'dotfiles': }
+class { 'autoupdates': }
